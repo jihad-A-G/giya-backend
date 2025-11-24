@@ -4,7 +4,7 @@
   "main": "dist/server.js",
   "scripts": {
     "dev": "nodemon src/server.ts",
-    "build": "npm install && tsc",
+    "build": "tsc",
     "start": "node dist/server.js"
   },
   "dependencies": {
@@ -16,7 +16,8 @@
     "uuid": "^11.0.3",
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
-    "sharp": "^0.33.5"
+    "sharp": "^0.33.5",
+    "typescript": "^5.7.2"
   },
   "devDependencies": {
     "@types/express": "^5.0.0",
@@ -26,7 +27,6 @@
     "@types/uuid": "^10.0.0",
     "@types/cors": "^2.8.17",
     "@types/node": "^22.10.2",
-    "typescript": "^5.7.2",
     "nodemon": "^3.1.9",
     "ts-node": "^10.9.2",
     "@types/sharp": "^0.32.0"
